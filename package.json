@@ -1,0 +1,30 @@
+{
+  "name": "mongo-chongo__read-all-about-it",
+  "version": "1.0.0",
+  "description": "news scraper and commenting using mongo and cheerio",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielLott/Mongo-Chongo__Read-All-About-It.git"
+  },
+  "keywords": [
+    "news",
+    "comments"
+  ],
+  "author": "Dan Lott",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/DanielLott/Mongo-Chongo__Read-All-About-It/issues"
+  },
+  "homepage": "https://github.com/DanielLott/Mongo-Chongo__Read-All-About-It#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
+    "mongoose": "^5.4.19"
+  }
+}
