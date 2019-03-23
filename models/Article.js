@@ -5,14 +5,22 @@ var Schema = mongoose.Schema;
 
 // Using the Schema constructor, create a new UserSchema object
 var ArticleSchema = new Schema({
-  title: {
-    type: String,
-    required: true
-  },
-  link: {
-    type: String,
-    required: true
-  }
+	link: {
+		type: String,
+		required: true
+	},
+	title: {
+		type: String,
+		required: true
+	},
+	summary: {
+		type: String,
+		required: true
+	},
+	picSrc: {
+		type: String,
+		required: true
+	}
 });
 
 // This creates our model from the above schema, using mongoose's model method

@@ -1,0 +1,29 @@
+body {
+  background-color: rgb(61, 179, 209);
+}
+
+
+h1 {
+    color: rgb(0, 0, 0);
+
+}
+
+#ready, #eaten {
+    width: 300px;
+}
+
+#title {
+	font-size: 30px;
+}
+
+
+
+
+
+
+
+/* img, h1, h2, form, p {
+      max-width: 500px;
+  margin: auto;
+  padding: 10px;
+} */

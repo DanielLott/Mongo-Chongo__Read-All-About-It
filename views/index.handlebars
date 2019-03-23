@@ -1,0 +1,27 @@
+<div class="container">
+	<img src="/assets/images/newsmaxLogo.png" alt="Newsmax Logo: Independent. American." width="200" class="rounded mx-auto d-block">
+	<h1 class="text-center">America</h1>
+
+
+
+	<div>
+		<button id="scrape">Scrape Now!</button>
+	</div>
+
+	<div>
+		<hr>
+		<h4>Articles from the Mongo Database:</h4>
+		<hr>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			{{#each articles}}
+			<div class="">
+				<img src={{this.picSrc}}>
+				<p id=title>{{this.title}}</p>
+				<p>{{this.summary}}</p>
+			</div>
+			{{/each}}
+		</div>
+	</div>
